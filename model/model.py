@@ -30,6 +30,7 @@ class ConvBlock(nn.Module):
 
 class UpsampleBlock(nn.Module):
     def __init__(self, in_channels, scale_factor):
+        super().__init__()
         self.conv = nn.Conv2d(
             in_channels=in_channels,
             out_channels=in_channels * scale_factor ** 2,
