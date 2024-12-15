@@ -11,8 +11,8 @@ pip install requirement.txt
 
 ### Training:
 ##### 1, Dataset: 
-- Training: [DF2k](https://www.kaggle.com/datasets/anvu1204/df2kdata) (used for pretrain this project)
-- Validation: [SR Benchmarks](https://www.kaggle.com/datasets/jesucristo/super-resolution-benchmarks)
+- Training: [DF2k](https://www.kaggle.com/datasets/anvu1204/df2kdata) (used for pretrain SRGAN) (Kaggle)
+- Validation: [SR Benchmarks](https://www.kaggle.com/datasets/jesucristo/super-resolution-benchmarks) (Kaggle)
 ##### 2, Training:
 ```cmd
 python model/train.py
@@ -20,8 +20,8 @@ python model/train.py
 
 ### Testing:
 ##### 1, Pretrained Model:
-- Generator: [Link](https://drive.google.com/file/d/1xLbD_NzM-QC0exkdGCznUy5-CZ4BJUbs/view?usp=drive_link)
-- Discriminator: [Link](https://drive.google.com/file/d/1vIPPjmsyHlebEiw_28liA0XpU_-jJfwA/view?usp=drive_link)
+- Generator: [Google Drive](https://drive.google.com/file/d/1xLbD_NzM-QC0exkdGCznUy5-CZ4BJUbs/view?usp=drive_link)
+- Discriminator: [Google Drive](https://drive.google.com/file/d/1vIPPjmsyHlebEiw_28liA0XpU_-jJfwA/view?usp=drive_link)
 ##### 2, Inference Single Image:
 ```cmd
 python infer.py --img_path
