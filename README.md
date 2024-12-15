@@ -2,7 +2,12 @@
 This project is an implementation of SRGAN model in the paper [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802) using Pytorch. 
 (Note: The perceptual loss in this project also include Total Variation Loss beside Content Loss & Adversarial Loss in the original paper)
 
-### Setting Up: Hyperparams, Dataset paths, ... can be modified in [utils/config.py]
+### Setting Up: 
+- [utils/config.py]: Hyperparams, Dataset paths, ... can be modified in this file!
+- For installing necessary libraries:
+```cmd
+pip install requirement.txt
+```
 
 ### Training:
 ##### 1, Dataset: 
@@ -21,4 +26,4 @@ python model/train.py
 ```cmd
 python infer.py --img_path
 ```
-(Note: The default output directory is [infer_results])
+(Note: [infer_results] is the default output directory)
